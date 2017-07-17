@@ -44,38 +44,40 @@
 <body>
 
 <div class="container">
+<div class="form">
   <form name="form1" method="post" action="">
     <table width="14%" border="1">
       <tr>
         <td colspan="4"><input type="text" name='screen'/></td>
       </tr>
       <tr>
-        <td width="5%"><input type="button" name="button" id="button" value="1" onclick="bone('1')"></td>
-        <td width="5%"><input type="button" name="button" id="button2" value="2" onclick="bone('2')"></td>
-        <td width="5%"><input type="button" name="button2" id="button3" value="3" onclick="bone('3')"></td>
-        <td width="85%"><input type="button" name="button3" id="button4" value="+" onclick="operator('+')"></td>
+        <td width="5%"><input type="button" name="button" id="button" value="1" onclick="bone('1')" class="form-control"></td>
+        <td width="5%"><input type="button" name="button" id="button2" value="2" onclick="bone('2')" class="form-control"></td>
+        <td width="5%"><input type="button" name="button2" id="button3" value="3" onclick="bone('3')" class="form-control"></td>
+        <td width="85%"><input type="button" name="button3" id="button4" value="+" onclick="operator('+')" class="form-control"></td>
       </tr>
       <tr>
-        <td><input type="button" name="button4" id="button5" value="4" onClick="bone('4')"></td>
-        <td><input type="button" name="button5" id="button6" value="5" onclick="bone('5')"></td>
-        <td><input type="button" name="button6" id="button7" value="6" onClick="bone('6')"></td>
-        <td><input type="button" name="button7" id="button8" value="-" onclick="operator('-')"></td>
+        <td><input type="button" name="button4" id="button5" value="4" onClick="bone('4')" class="form-control"></td>
+        <td><input type="button" name="button5" id="button6" value="5" onclick="bone('5')" class="form-control"></td>
+        <td><input type="button" name="button6" id="button7" value="6" onClick="bone('6')" class="form-control"></td>
+        <td><input type="button" name="button7" id="button8" value="-" onclick="operator('-')" class="form-control"></td>
       </tr>
       <tr>
-        <td><input type="button" name="button8" id="button9" value="7" onClick="bone('7')"></td>
-        <td><input type="button" name="button9" id="button10" value="8" onClick="bone('8')"></td>
-        <td><input type="button" name="button10" id="button11" value="9" onClick="bone('9')"></td>
-        <td><input type="button" name="button15" id="button16" value="*" onClick="operator('*')"></td>
+        <td><input type="button" name="button8" id="button9" value="7" onClick="bone('7')" class="form-control"></td>
+        <td><input type="button" name="button9" id="button10" value="8" onClick="bone('8')" class="form-control"></td>
+        <td><input type="button" name="button10" id="button11" value="9" onClick="bone('9')" class="form-control"></td>
+        <td><input type="button" name="button15" id="button16" value="*" onClick="operator('*')" class="form-control"></td>
       
       </tr>
       <tr>
-        <td><input type="button" name="button15" id="button16" value="." onClick='.()'></td>
-        <td><input type="button" name="button14" id="button15" value="0" onClick="bone('0')"></td>
-        <td><input type="button" name="button13" id="button14" value="=" onclick='equalto()'></td>
-        <td><input type="button" name="button12" id="button13" value="/" onclick="operator('/')"></td>
+        <td><input type="button" name="button15" id="button16" value="." onClick='.()' class="form-control"></td>
+        <td><input type="button" name="button14" id="button15" value="0" onClick="bone('0')" class="form-control"></td>
+        <td><input type="button" name="button13" id="button14" value="=" onclick='equalto()' class="form-control"></td>
+        <td><input type="button" name="button12" id="button13" value="/" onclick="operator('/')" class="form-control"></td>
       </tr>
     </table>
  </form>
+	</div>
 </div>
 
 </body>
